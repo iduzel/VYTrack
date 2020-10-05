@@ -71,6 +71,7 @@ public class HoverTest {
             Assert.assertTrue(text1.isDisplayed(),"verify user "+i+" is displayed");
             System.out.println("Hello again");
             System.out.println("again Hello github");
+            int a;
 
         }
 

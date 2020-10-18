@@ -38,6 +38,7 @@ public class DDFLoginTest extends TestBase {
         extentLogger.pass("PASSED");
 
 
+        String s = "GitHub Control";
     }
 
 }

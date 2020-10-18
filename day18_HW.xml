@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Day18_Honework_6TestCases" verbose="1">
+    <test name="Day18 HW Smoke Test">
+        <classes>
+            <class name="com.cybertek.homeworks.test5"></class>
+        </classes>
+
+    </test>
+
+</suite>
+       

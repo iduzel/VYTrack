@@ -36,6 +36,8 @@ public class DisabledElements {
 
         inputBox.sendKeys("some message");
 
+        System.out.println("inputBox.getText() = " + inputBox.getText());
+
 
 
     }

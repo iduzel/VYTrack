@@ -40,6 +40,7 @@ public class MultipleWindows {
         // System.out.println("driver.getWindowHandle() = " + driver.getWindowHandle());
 
         String currentWindowHandle = driver.getWindowHandle();
+        System.out.println("currentWindowHandle = " + currentWindowHandle);
 
         Set<String> windowHandles = driver.getWindowHandles();
 

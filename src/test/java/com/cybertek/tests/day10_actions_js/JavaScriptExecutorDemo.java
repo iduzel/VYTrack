@@ -46,8 +46,9 @@ public class JavaScriptExecutorDemo {
 
         String text = "Hello Disabled Input";
 
-        jse.executeScript("arguments[0].setAttribute('value', '" + text +"')", inputBox);
+        //jse.executeScript("arguments[0].setAttribute('value', '" + text +"')", inputBox);
 
+        jse.executeScript("arguments[0].setAttribute('value', '"+ text + "')", inputBox);
     }
 
     @Test

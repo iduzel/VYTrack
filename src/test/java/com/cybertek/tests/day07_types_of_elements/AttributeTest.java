@@ -45,7 +45,7 @@ public class AttributeTest {
 
         System.out.println("Inner HTML: "+button2.getAttribute("innerHTML"));
 
-        driver.quit();
+        //driver.quit();
 
     }
 }

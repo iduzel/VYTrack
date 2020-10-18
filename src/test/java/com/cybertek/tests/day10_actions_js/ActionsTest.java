@@ -79,7 +79,7 @@ public class ActionsTest {
         Actions actions = new Actions(driver);
 
         List<WebElement> acceptAndClose = driver.findElements(By.xpath("//*[.='Accept and Close']"));
-        List<WebElement> acceptCookies = driver.findElements(By.xpath("//*[.='Accept Cookies']"));
+        List<WebElement> acceptCookies  = driver.findElements(By.xpath("//*[.='Accept Cookies']"));
         Thread.sleep(1000);
         if(acceptAndClose.size()>0){
             acceptAndClose.get(0).click();

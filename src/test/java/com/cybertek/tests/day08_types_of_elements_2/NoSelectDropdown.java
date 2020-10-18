@@ -32,6 +32,7 @@ public class NoSelectDropdown {
         driver.get("http://practice.cybertekschool.com/dropdown");
 
         WebElement dropdownElement = driver.findElement(By.id("dropdownMenuLink"));
+        System.out.println(dropdownElement.getText());
 
 
         //click the dropdown to see available options

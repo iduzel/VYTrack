@@ -23,7 +23,7 @@ public class SelectDropdownTest {
     @AfterMethod
     public void tearDown() throws InterruptedException {
         Thread.sleep(2000);
-        driver.quit();
+        //driver.quit();
     }
 
     @Test
@@ -86,6 +86,8 @@ public class SelectDropdownTest {
         expectedOption = "Texas";
         actualOption = stateDropdown.getFirstSelectedOption().getText();
         Assert.assertEquals(actualOption,expectedOption,"verify first selection");
+
+        System.out.println(driver.findElement(By.xpath("//select[@id='state']/option[@*='selected']")).getText());
     }
 
 }

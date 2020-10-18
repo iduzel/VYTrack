@@ -71,7 +71,7 @@ public class iframeTest {
 
         //switching to frame top
         driver.switchTo().frame("frame-top");
-        //top has 3 frame under left middle and right
+        //top has 3 frame under -->'left', 'middle', and 'right'
         //switch to frame middle
         driver.switchTo().frame("frame-middle");
 

@@ -216,6 +216,7 @@ the table) is equals to number of records*/
         }
 
         Thread.sleep(2000);
+        System.out.println("-------");
     }
 
     @Test
